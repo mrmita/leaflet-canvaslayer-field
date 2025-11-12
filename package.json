@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      "leaflet-canvaslayer-field@git+https://evankielley@bitbucket.org/evankielley/leaflet-canvaslayer-field.git",
+      "C:\\Git\\Wx\\RiskEngine\\decisionvue"
+    ]
+  ],
+  "_from": "leaflet-canvaslayer-field@git+https://evankielley@bitbucket.org/evankielley/leaflet-canvaslayer-field.git",
+  "_id": "leaflet-canvaslayer-field@git+ssh://git@bitbucket.org/evankielley/leaflet-canvaslayer-field.git#44c11b953831bfd446f7063833b6cb404fbc5f79",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/leaflet-canvaslayer-field",
+  "_phantomChildren": {
+    "commander": "2.17.1",
+    "d3-collection": "1.0.3",
+    "d3-queue": "3.0.7",
+    "d3-request": "1.0.5",
+    "d3-voronoi": "1.1.2",
+    "iconv-lite": "0.4.24",
+    "rw": "1.3.3"
+  },
+  "_requested": {
+    "type": "git",
+    "raw": "leaflet-canvaslayer-field@git+https://evankielley@bitbucket.org/evankielley/leaflet-canvaslayer-field.git",
+    "name": "leaflet-canvaslayer-field",
+    "escapedName": "leaflet-canvaslayer-field",
+    "rawSpec": "git+https://evankielley@bitbucket.org/evankielley/leaflet-canvaslayer-field.git",
+    "saveSpec": "git+https://evankielley@bitbucket.org/evankielley/leaflet-canvaslayer-field.git",
+    "fetchSpec": "https://evankielley@bitbucket.org/evankielley/leaflet-canvaslayer-field.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+ssh://git@bitbucket.org/evankielley/leaflet-canvaslayer-field.git#44c11b953831bfd446f7063833b6cb404fbc5f79",
+  "_spec": "git+https://evankielley@bitbucket.org/evankielley/leaflet-canvaslayer-field.git",
+  "_where": "C:\\Git\\Wx\\RiskEngine\\decisionvue",
+  "author": {
+    "name": "Víctor Velarde Gutiérrez",
+    "email": "victor.velarde@gmail.com",
+    "url": "http://victorvelarde.github.io/"
+  },
+  "bugs": {
+    "url": "https://github.com/IHCantabria/Leaflet.CanvasLayer.Field/issues"
+  },
+  "dependencies": {
+    "@turf/inside": "^4.7.3",
+    "chroma-js": "1.3.4",
+    "d3": "4.9.1",
+    "geotiff": "0.4.1",
+    "leaflet": ">=1.0.3",
+    "npm": "^3.10.7"
+  },
+  "description": "A set of layers using canvas to draw ASCIIGrid or GeoTIFF files. This includes a basic raster layer (*ScalaField*) and an animated layer for vector fields, such as wind or currents (*VectorFieldAnim*)",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-webpack": "^3.12.2",
+    "fs-extra": "^3.0.1",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-cli": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.8.2",
+    "webpack-shell-plugin": "^0.5.0"
+  },
+  "homepage": "https://github.com/IHCantabria/Leaflet.CanvasLayer.Field",
+  "keywords": [
+    "leaflet",
+    "vectorField",
+    "wind",
+    "currents",
+    "animation",
+    "raster"
+  ],
+  "license": "GPL-3.0",
+  "main": "./src/_main.js",
+  "name": "leaflet-canvaslayer-field",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IHCantabria/Leaflet.CanvasLayer.Field.git"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "start": "webpack --watch",
+    "web": "webpack-dev-server"
+  },
+  "version": "1.4.1"
+}
